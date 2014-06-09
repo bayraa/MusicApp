@@ -54,7 +54,14 @@
         self.refreshControl = [[UIRefreshControl alloc] init];
         [refreshControl addTarget:self action:@selector(handleRefresh:) forControlEvents:UIControlEventValueChanged];
     }
-   // self.view.backgroundColor = CLEAR_COLOR;
+    
+    //SWRevealViewController
+    {
+        SWRevealViewController *revealController = [self revealViewController];
+        [revealController panGestureRecognizer].enabled = YES;
+        [revealController tapGestureRecognizer].enabled = YES;
+    }
+    
     UIImageView * brickAnim = [[UIImageView alloc] initWithImage:[UIImage imageNamed:@"album_bg.jpg"]];
     brickAnim.frame = CGRectMake(0, 0, 320, 580);
     [self.view addSubview:brickAnim];

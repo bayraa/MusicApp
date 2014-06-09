@@ -9,6 +9,8 @@
 #import "AppDelegate.h"
 #import "AlbumsViewController.h"
 #import "MyNavigationController.h"
+#import "LeftMenuController.h"
+#import <SWRevealViewController/SWRevealViewController.h>
 
 @implementation AppDelegate
 
@@ -30,8 +32,15 @@
     MyNavigationController *navController = [[MyNavigationController alloc] initWithRootViewController:controller];
     navController.navigationBarHidden = YES;
     
+    //Left
+    LeftMenuController *leftController = [[LeftMenuController alloc] initWithNibName:nil bundle:nil];
+    
+    //SWRevealViewController
+    SWRevealViewController *revealController = [[SWRevealViewController alloc] initWithRearViewController:leftController frontViewController:navController];
+    revealController.rearViewRevealWidth = 84;
+    
     //4.Root
-    self.window.rootViewController = navController;
+    self.window.rootViewController = revealController;
     
     //5.Visible
     [self.window makeKeyAndVisible];

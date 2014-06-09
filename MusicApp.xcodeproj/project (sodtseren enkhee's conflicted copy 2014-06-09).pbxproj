@@ -341,16 +341,6 @@
 		707713B81945A5E6000AB3BA /* FGalleryPhoto.m in Sources */ = {isa = PBXBuildFile; fileRef = 707713B31945A5E6000AB3BA /* FGalleryPhoto.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		707713B91945A5E6000AB3BA /* FGalleryPhotoView.m in Sources */ = {isa = PBXBuildFile; fileRef = 707713B51945A5E6000AB3BA /* FGalleryPhotoView.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		707713BA1945A5E6000AB3BA /* FGalleryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 707713B71945A5E6000AB3BA /* FGalleryViewController.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		707713BD1945A7AA000AB3BA /* UIDevice-Hardware.m in Sources */ = {isa = PBXBuildFile; fileRef = 707713BC1945A7AA000AB3BA /* UIDevice-Hardware.m */; };
-		707713D51945A95A000AB3BA /* CDataScanner.m in Sources */ = {isa = PBXBuildFile; fileRef = 707713C31945A95A000AB3BA /* CDataScanner.m */; };
-		707713D61945A95A000AB3BA /* CDataScanner_Extensions.m in Sources */ = {isa = PBXBuildFile; fileRef = 707713C51945A95A000AB3BA /* CDataScanner_Extensions.m */; };
-		707713D71945A95A000AB3BA /* CFilteringJSONSerializer.m in Sources */ = {isa = PBXBuildFile; fileRef = 707713C71945A95A000AB3BA /* CFilteringJSONSerializer.m */; };
-		707713D81945A95A000AB3BA /* CJSONDeserializer.m in Sources */ = {isa = PBXBuildFile; fileRef = 707713C91945A95A000AB3BA /* CJSONDeserializer.m */; };
-		707713D91945A95A000AB3BA /* CJSONScanner.m in Sources */ = {isa = PBXBuildFile; fileRef = 707713CB1945A95A000AB3BA /* CJSONScanner.m */; };
-		707713DA1945A95A000AB3BA /* CJSONSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = 707713CD1945A95A000AB3BA /* CJSONSerialization.m */; };
-		707713DB1945A95A000AB3BA /* CJSONSerializedData.m in Sources */ = {isa = PBXBuildFile; fileRef = 707713CF1945A95A000AB3BA /* CJSONSerializedData.m */; };
-		707713DC1945A95A000AB3BA /* CJSONSerializer.m in Sources */ = {isa = PBXBuildFile; fileRef = 707713D11945A95A000AB3BA /* CJSONSerializer.m */; };
-		707713DD1945A95A000AB3BA /* NSDictionary_JSONExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = 707713D41945A95A000AB3BA /* NSDictionary_JSONExtensions.m */; };
 		BFBE09B30A2B4D9787564729 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 52E4DAD9051E481BBD1CE7F2 /* libPods.a */; };
 /* End PBXBuildFile section */
 
@@ -745,27 +735,6 @@
 		707713B51945A5E6000AB3BA /* FGalleryPhotoView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FGalleryPhotoView.m; sourceTree = "<group>"; };
 		707713B61945A5E6000AB3BA /* FGalleryViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FGalleryViewController.h; sourceTree = "<group>"; };
 		707713B71945A5E6000AB3BA /* FGalleryViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FGalleryViewController.m; sourceTree = "<group>"; };
-		707713BB1945A7AA000AB3BA /* UIDevice-Hardware.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIDevice-Hardware.h"; sourceTree = "<group>"; };
-		707713BC1945A7AA000AB3BA /* UIDevice-Hardware.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIDevice-Hardware.m"; sourceTree = "<group>"; };
-		707713C21945A95A000AB3BA /* CDataScanner.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CDataScanner.h; sourceTree = "<group>"; };
-		707713C31945A95A000AB3BA /* CDataScanner.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CDataScanner.m; sourceTree = "<group>"; };
-		707713C41945A95A000AB3BA /* CDataScanner_Extensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CDataScanner_Extensions.h; sourceTree = "<group>"; };
-		707713C51945A95A000AB3BA /* CDataScanner_Extensions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CDataScanner_Extensions.m; sourceTree = "<group>"; };
-		707713C61945A95A000AB3BA /* CFilteringJSONSerializer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CFilteringJSONSerializer.h; sourceTree = "<group>"; };
-		707713C71945A95A000AB3BA /* CFilteringJSONSerializer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CFilteringJSONSerializer.m; sourceTree = "<group>"; };
-		707713C81945A95A000AB3BA /* CJSONDeserializer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CJSONDeserializer.h; sourceTree = "<group>"; };
-		707713C91945A95A000AB3BA /* CJSONDeserializer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CJSONDeserializer.m; sourceTree = "<group>"; };
-		707713CA1945A95A000AB3BA /* CJSONScanner.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CJSONScanner.h; sourceTree = "<group>"; };
-		707713CB1945A95A000AB3BA /* CJSONScanner.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CJSONScanner.m; sourceTree = "<group>"; };
-		707713CC1945A95A000AB3BA /* CJSONSerialization.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CJSONSerialization.h; sourceTree = "<group>"; };
-		707713CD1945A95A000AB3BA /* CJSONSerialization.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CJSONSerialization.m; sourceTree = "<group>"; };
-		707713CE1945A95A000AB3BA /* CJSONSerializedData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CJSONSerializedData.h; sourceTree = "<group>"; };
-		707713CF1945A95A000AB3BA /* CJSONSerializedData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CJSONSerializedData.m; sourceTree = "<group>"; };
-		707713D01945A95A000AB3BA /* CJSONSerializer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CJSONSerializer.h; sourceTree = "<group>"; };
-		707713D11945A95A000AB3BA /* CJSONSerializer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CJSONSerializer.m; sourceTree = "<group>"; };
-		707713D21945A95A000AB3BA /* JSONRepresentation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSONRepresentation.h; sourceTree = "<group>"; };
-		707713D31945A95A000AB3BA /* NSDictionary_JSONExtensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSDictionary_JSONExtensions.h; sourceTree = "<group>"; };
-		707713D41945A95A000AB3BA /* NSDictionary_JSONExtensions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSDictionary_JSONExtensions.m; sourceTree = "<group>"; };
 		87B18203FADE4150BDE85127 /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -798,7 +767,6 @@
 		70771096194566CB000AB3BA = {
 			isa = PBXGroup;
 			children = (
-				707713C11945A95A000AB3BA /* CJSON */,
 				707713B11945A5E6000AB3BA /* FGallery */,
 				707710A8194566CB000AB3BA /* MusicApp */,
 				707710A1194566CB000AB3BA /* Frameworks */,
@@ -840,8 +808,6 @@
 		707710A8194566CB000AB3BA /* MusicApp */ = {
 			isa = PBXGroup;
 			children = (
-				707713BB1945A7AA000AB3BA /* UIDevice-Hardware.h */,
-				707713BC1945A7AA000AB3BA /* UIDevice-Hardware.m */,
 				707710B1194566CB000AB3BA /* AppDelegate.h */,
 				707710B2194566CB000AB3BA /* AppDelegate.m */,
 				707713AD1945730D000AB3BA /* LeftMenuController */,
@@ -1491,32 +1457,6 @@
 			path = FGallery;
 			sourceTree = "<group>";
 		};
-		707713C11945A95A000AB3BA /* CJSON */ = {
-			isa = PBXGroup;
-			children = (
-				707713C21945A95A000AB3BA /* CDataScanner.h */,
-				707713C31945A95A000AB3BA /* CDataScanner.m */,
-				707713C41945A95A000AB3BA /* CDataScanner_Extensions.h */,
-				707713C51945A95A000AB3BA /* CDataScanner_Extensions.m */,
-				707713C61945A95A000AB3BA /* CFilteringJSONSerializer.h */,
-				707713C71945A95A000AB3BA /* CFilteringJSONSerializer.m */,
-				707713C81945A95A000AB3BA /* CJSONDeserializer.h */,
-				707713C91945A95A000AB3BA /* CJSONDeserializer.m */,
-				707713CA1945A95A000AB3BA /* CJSONScanner.h */,
-				707713CB1945A95A000AB3BA /* CJSONScanner.m */,
-				707713CC1945A95A000AB3BA /* CJSONSerialization.h */,
-				707713CD1945A95A000AB3BA /* CJSONSerialization.m */,
-				707713CE1945A95A000AB3BA /* CJSONSerializedData.h */,
-				707713CF1945A95A000AB3BA /* CJSONSerializedData.m */,
-				707713D01945A95A000AB3BA /* CJSONSerializer.h */,
-				707713D11945A95A000AB3BA /* CJSONSerializer.m */,
-				707713D21945A95A000AB3BA /* JSONRepresentation.h */,
-				707713D31945A95A000AB3BA /* NSDictionary_JSONExtensions.h */,
-				707713D41945A95A000AB3BA /* NSDictionary_JSONExtensions.m */,
-			);
-			path = CJSON;
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -1899,46 +1839,36 @@
 				7077128E194568DD000AB3BA /* NumKeyboard_iphone.m in Sources */,
 				707713B019457329000AB3BA /* LeftMenuController.m in Sources */,
 				707711E3194568DD000AB3BA /* MyPlayerLayerView.m in Sources */,
-				707713D91945A95A000AB3BA /* CJSONScanner.m in Sources */,
-				707713D61945A95A000AB3BA /* CDataScanner_Extensions.m in Sources */,
 				70771299194568DD000AB3BA /* NSString+Utils.m in Sources */,
 				707711E0194568DD000AB3BA /* AlbumsViewController.m in Sources */,
 				70771290194568DD000AB3BA /* MyAlertView.m in Sources */,
 				707711E6194568DD000AB3BA /* Parser.m in Sources */,
-				707713DB1945A95A000AB3BA /* CJSONSerializedData.m in Sources */,
 				70771298194568DD000AB3BA /* MyUtils.m in Sources */,
 				70771292194568DD000AB3BA /* MyCircleImageView.m in Sources */,
 				707711E2194568DD000AB3BA /* MediaPlayerView.m in Sources */,
-				707713BD1945A7AA000AB3BA /* UIDevice-Hardware.m in Sources */,
-				707713DC1945A95A000AB3BA /* CJSONSerializer.m in Sources */,
 				70771293194568DD000AB3BA /* MyLabel.m in Sources */,
 				70771297194568DD000AB3BA /* MotionManagerSingleton.m in Sources */,
 				70771296194568DD000AB3BA /* StandartDatePickerViewController.m in Sources */,
 				70771291194568DD000AB3BA /* MyButton.m in Sources */,
 				707710B3194566CB000AB3BA /* AppDelegate.m in Sources */,
 				70771228194568DD000AB3BA /* Song.m in Sources */,
-				707713D51945A95A000AB3BA /* CDataScanner.m in Sources */,
 				707710AF194566CB000AB3BA /* main.m in Sources */,
 				70771295194568DD000AB3BA /* MyTextView.m in Sources */,
 				7077128A194568DD000AB3BA /* SymbolKeyboard_ipad.m in Sources */,
 				707711DF194568DD000AB3BA /* AlbumCollectionCell.m in Sources */,
 				707711E7194568DD000AB3BA /* TimeoutAFHTTPRequestSerializer.m in Sources */,
 				707711E4194568DD000AB3BA /* CheckConnect.m in Sources */,
-				707713DD1945A95A000AB3BA /* NSDictionary_JSONExtensions.m in Sources */,
 				7077128F194568DD000AB3BA /* SymbolKeyboard_iphone.m in Sources */,
 				70771286194568DD000AB3BA /* EngKeyboard_ipad.m in Sources */,
 				707711DD194568DD000AB3BA /* MainAbstractViewController.m in Sources */,
-				707713D71945A95A000AB3BA /* CFilteringJSONSerializer.m in Sources */,
 				707711E5194568DD000AB3BA /* ConnectionManager.m in Sources */,
 				707711DE194568DD000AB3BA /* MyNavigationController.m in Sources */,
 				70771288194568DD000AB3BA /* MonKeyboard_ipad.m in Sources */,
 				70771289194568DD000AB3BA /* NumberKeyboard_ipad.m in Sources */,
 				70771227194568DD000AB3BA /* Album.m in Sources */,
 				7077128B194568DD000AB3BA /* EnKeyboard_iphone.m in Sources */,
-				707713D81945A95A000AB3BA /* CJSONDeserializer.m in Sources */,
 				707711E9194568DD000AB3BA /* PlayerViewController.m in Sources */,
 				707713B81945A5E6000AB3BA /* FGalleryPhoto.m in Sources */,
-				707713DA1945A95A000AB3BA /* CJSONSerialization.m in Sources */,
 				707713BA1945A5E6000AB3BA /* FGalleryViewController.m in Sources */,
 				70771294194568DD000AB3BA /* MyTextField.m in Sources */,
 				707711E8194568DD000AB3BA /* PlayerCell.m in Sources */,
