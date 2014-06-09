@@ -1,0 +1,63 @@
+//
+//  Prefix header
+//
+//  The contents of this file are implicitly included at the beginning of every source file.
+//
+
+#import <Availability.h>
+
+#ifndef __IPHONE_5_0
+#warning "This project uses features only available in iOS SDK 5.0 and later."
+#endif
+
+#ifdef __OBJC__
+#import <UIKit/UIKit.h>
+#import <Foundation/Foundation.h>
+#import <CoreAudio/CoreAudioTypes.h>
+#import <AudioToolbox/AudioToolbox.h>
+#import <Twitter/Twitter.h>
+
+#define IS_IPHONE_5 ( fabs( ( double )[ [ UIScreen mainScreen ] bounds ].size.height - ( double )568 ) < DBL_EPSILON )
+
+#import <SEDefaults/SEDefaults.h>
+
+#import <AFNetworking/AFNetworking.h>
+#import <AFNetworking/UIImageView+AFNetworking.h>
+#import <MBProgressHUD.h>
+
+#import "MyUtils.h"
+#import "ConnectionManager.h"
+#import "Config.h"
+#import "MNCustomKeyboard.h"
+
+//Constants
+#undef  NO_CONNECTION_ALERT
+#define NO_CONNECTION_ALERT             NSLocalizedString(@"Сервэртэй холбогдоход алдаа гарлаа. Холболтоо шалгана уу!", nil)
+#define SESSION_EXPIRED_STRING          @"This connection is untrusted"
+
+#define CONNECTION_MANAGER              [ConnectionManager getConnectionManager]
+#define PARSER                          [Parser getParser]
+#define LOGIN_USER                      [UserEmployee getLoginUser]
+
+#define IS_RETINA                       ([[UIScreen mainScreen] respondsToSelector:@selector(displayLinkWithTarget:selector:)] && ([UIScreen mainScreen].scale == 2.0))
+
+#define ORANGE_COLOR                    [UIColor colorWithRed:253.0f/255.0f green:75.0f/255.0f blue:1.0f/255.0f alpha:1.0f]
+#define LIGHT_YELLOW_COLOR              [UIColor colorWithRed:249.0f/255.0f green:235.0f/255.0f blue:222.0f/255.0f alpha:1.0f]
+#define BLACK_COLOR                     [UIColor colorWithRed:77.0f/255.0f green:77.0f/255.0f blue:79.0f/255.0f alpha:1.0f]
+#define GRAY_COLOR                      [UIColor colorWithRed:178.0f/255.0f green:178.0f/255.0f blue:178.0f/255.0f alpha:1.0f]
+#define GREEN_COLOR                     [UIColor colorWithRed:58.0f/255.0f green:201.0f/255.0f blue:116.0f/255.0f alpha:1.0f]
+
+#undef NORMALFONT
+#undef BOLDFONT
+#define NORMALFONT                      @"MogulAvanti"
+#define BOLDFONT                        @"MogulAvanti-Bold"
+#define FONT_EXTRA_LARGE                [UIFont fontWithName:NORMALFONT size:36.0f]
+#define FONT_LARGE                      [UIFont fontWithName:NORMALFONT size:24.0f]
+#define FONT_MEDIUM                     [UIFont fontWithName:NORMALFONT size:21.0f]
+#define FONT_MEDIUM_BOLD                [UIFont fontWithName:BOLDFONT size:21.0f]
+#define FONT_NORMAL                     [UIFont fontWithName:NORMALFONT size:17.0f]
+#define FONT_NORMAL_BOLD                [UIFont fontWithName:BOLDFONT size:17.0f]
+#define FONT_NORMAL_SMALL               [UIFont fontWithName:NORMALFONT size:14.0f]
+#define FONT_NORMAL_SMALL_BOLD          [UIFont fontWithName:BOLDFONT size:14.0f]
+#define FONT_SMALL                      [UIFont fontWithName:NORMALFONT size:12.0f]
+#endif

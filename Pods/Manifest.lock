@@ -1,0 +1,52 @@
+PODS:
+  - AFNetworking (2.2.4):
+    - AFNetworking/NSURLConnection
+    - AFNetworking/NSURLSession
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+    - AFNetworking/UIKit
+  - AFNetworking/NSURLConnection (2.2.4):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/NSURLSession (2.2.4):
+    - AFNetworking/NSURLConnection
+  - AFNetworking/Reachability (2.2.4)
+  - AFNetworking/Security (2.2.4)
+  - AFNetworking/Serialization (2.2.4)
+  - AFNetworking/UIKit (2.2.4):
+    - AFNetworking/NSURLConnection
+    - AFNetworking/NSURLSession
+  - CupertinoYankee (1.0.0)
+  - FXBlurView (1.6.1)
+  - KGModal (1.1.0)
+  - MBProgressHUD (0.8)
+  - SSZipArchive (0.3.1)
+  - SWRevealViewController (1.1.3)
+  - TouchXML (0.1)
+  - UICircularSlider (1.0.3)
+
+DEPENDENCIES:
+  - AFNetworking (~> 2.2.1)
+  - CupertinoYankee (~> 1.0.0)
+  - FXBlurView (~> 1.6.1)
+  - KGModal (~> 1.1.0)
+  - MBProgressHUD (~> 0.8)
+  - SSZipArchive (~> 0.3.1)
+  - SWRevealViewController (~> 1.1.1)
+  - TouchXML (~> 0.1)
+  - UICircularSlider (~> 1.0.3)
+
+SPEC CHECKSUMS:
+  AFNetworking: ab63e259fe91eef4519b371ef0a4955af0e73e64
+  CupertinoYankee: 21a0000abd35b13c6b67e7697eabb10ef59b857e
+  FXBlurView: 1d01b96076d65027314d1be024c7506c292392aa
+  KGModal: a24d7b0074dbef0aa624b874b15bc24ee26f1ce1
+  MBProgressHUD: c356980b0cd097f19acec959b49dca5eb8ec31be
+  SSZipArchive: 6dc0ea3fe4b55574bee23c9f01d7c0f8437d59ef
+  SWRevealViewController: 6acf5326608610a4b68442bdf55ecd75687f8883
+  TouchXML: fa552bd1f8b98cb5233be61622655796765fe535
+  UICircularSlider: 516db580ae6b09496dbb4558eeab6f3a9f0c8e7b
+
+COCOAPODS: 0.32.1
