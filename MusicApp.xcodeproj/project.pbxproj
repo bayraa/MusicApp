@@ -351,6 +351,16 @@
 		707713DB1945A95A000AB3BA /* CJSONSerializedData.m in Sources */ = {isa = PBXBuildFile; fileRef = 707713CF1945A95A000AB3BA /* CJSONSerializedData.m */; };
 		707713DC1945A95A000AB3BA /* CJSONSerializer.m in Sources */ = {isa = PBXBuildFile; fileRef = 707713D11945A95A000AB3BA /* CJSONSerializer.m */; };
 		707713DD1945A95A000AB3BA /* NSDictionary_JSONExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = 707713D41945A95A000AB3BA /* NSDictionary_JSONExtensions.m */; };
+		707713E11945AC1E000AB3BA /* VideoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 707713E01945AC1E000AB3BA /* VideoViewController.m */; };
+		707713E41945AC35000AB3BA /* VideoCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 707713E31945AC35000AB3BA /* VideoCell.m */; };
+		707713E71945BC53000AB3BA /* Video.m in Sources */ = {isa = PBXBuildFile; fileRef = 707713E61945BC53000AB3BA /* Video.m */; };
+		70A92D54194A8F050079EC0E /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 70A92D53194A8F050079EC0E /* libPods.a */; };
+		70A92D57194A93A50079EC0E /* RequestHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 70A92D56194A93A50079EC0E /* RequestHelper.m */; };
+		70DA59011946AC420050C0A5 /* EventViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 70DA59001946AC420050C0A5 /* EventViewController.m */; };
+		70DA59041946AD750050C0A5 /* EventCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 70DA59031946AD750050C0A5 /* EventCell.m */; };
+		70DA59061946B8750050C0A5 /* Non-stop.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 70DA59051946B8750050C0A5 /* Non-stop.jpg */; };
+		70DA590A194726E80050C0A5 /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 70DA5909194726E80050C0A5 /* LoginViewController.m */; };
+		70DCB84E1949887A00F100FD /* FacebookSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 70DCB84D1949887A00F100FD /* FacebookSDK.framework */; };
 		BFBE09B30A2B4D9787564729 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 52E4DAD9051E481BBD1CE7F2 /* libPods.a */; };
 /* End PBXBuildFile section */
 
@@ -766,6 +776,23 @@
 		707713D21945A95A000AB3BA /* JSONRepresentation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSONRepresentation.h; sourceTree = "<group>"; };
 		707713D31945A95A000AB3BA /* NSDictionary_JSONExtensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSDictionary_JSONExtensions.h; sourceTree = "<group>"; };
 		707713D41945A95A000AB3BA /* NSDictionary_JSONExtensions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSDictionary_JSONExtensions.m; sourceTree = "<group>"; };
+		707713DF1945AC1E000AB3BA /* VideoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VideoViewController.h; sourceTree = "<group>"; };
+		707713E01945AC1E000AB3BA /* VideoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VideoViewController.m; sourceTree = "<group>"; };
+		707713E21945AC35000AB3BA /* VideoCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VideoCell.h; sourceTree = "<group>"; };
+		707713E31945AC35000AB3BA /* VideoCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VideoCell.m; sourceTree = "<group>"; };
+		707713E51945BC53000AB3BA /* Video.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Video.h; sourceTree = "<group>"; };
+		707713E61945BC53000AB3BA /* Video.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Video.m; sourceTree = "<group>"; };
+		70A92D53194A8F050079EC0E /* libPods.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libPods.a; path = ../Bold/libPods.a; sourceTree = "<group>"; };
+		70A92D55194A93A50079EC0E /* RequestHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RequestHelper.h; sourceTree = "<group>"; };
+		70A92D56194A93A50079EC0E /* RequestHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RequestHelper.m; sourceTree = "<group>"; };
+		70DA58FF1946AC420050C0A5 /* EventViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EventViewController.h; sourceTree = "<group>"; };
+		70DA59001946AC420050C0A5 /* EventViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EventViewController.m; sourceTree = "<group>"; };
+		70DA59021946AD750050C0A5 /* EventCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EventCell.h; sourceTree = "<group>"; };
+		70DA59031946AD750050C0A5 /* EventCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EventCell.m; sourceTree = "<group>"; };
+		70DA59051946B8750050C0A5 /* Non-stop.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Non-stop.jpg"; sourceTree = "<group>"; };
+		70DA5908194726E80050C0A5 /* LoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
+		70DA5909194726E80050C0A5 /* LoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
+		70DCB84D1949887A00F100FD /* FacebookSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FacebookSDK.framework; path = "../../Desktop/ios-howtos-master/FacebookSDK.framework"; sourceTree = "<group>"; };
 		87B18203FADE4150BDE85127 /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -774,6 +801,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				70A92D54194A8F050079EC0E /* libPods.a in Frameworks */,
+				70DCB84E1949887A00F100FD /* FacebookSDK.framework in Frameworks */,
+				707710A3194566CB000AB3BA /* Foundation.framework in Frameworks */,
 				707712B219457089000AB3BA /* QuartzCore.framework in Frameworks */,
 				707712AE19457089000AB3BA /* CoreMedia.framework in Frameworks */,
 				707712B119457089000AB3BA /* Security.framework in Frameworks */,
@@ -783,7 +813,6 @@
 				707712AD19457089000AB3BA /* CoreTelephony.framework in Frameworks */,
 				707712AA19457089000AB3BA /* CoreAudio.framework in Frameworks */,
 				707710A7194566CB000AB3BA /* UIKit.framework in Frameworks */,
-				707710A3194566CB000AB3BA /* Foundation.framework in Frameworks */,
 				707712B019457089000AB3BA /* SystemConfiguration.framework in Frameworks */,
 				707712A919457089000AB3BA /* AudioToolbox.framework in Frameworks */,
 				BFBE09B30A2B4D9787564729 /* libPods.a in Frameworks */,
@@ -818,6 +847,8 @@
 		707710A1194566CB000AB3BA /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				70A92D53194A8F050079EC0E /* libPods.a */,
+				70DCB84D1949887A00F100FD /* FacebookSDK.framework */,
 				7077129E19457089000AB3BA /* AudioToolbox.framework */,
 				7077129F19457089000AB3BA /* CoreAudio.framework */,
 				707712A019457089000AB3BA /* Twitter.framework */,
@@ -844,6 +875,11 @@
 				707713BC1945A7AA000AB3BA /* UIDevice-Hardware.m */,
 				707710B1194566CB000AB3BA /* AppDelegate.h */,
 				707710B2194566CB000AB3BA /* AppDelegate.m */,
+				70A92D55194A93A50079EC0E /* RequestHelper.h */,
+				70A92D56194A93A50079EC0E /* RequestHelper.m */,
+				70DA5907194726DC0050C0A5 /* LoginController */,
+				70DA58FE1946ABDF0050C0A5 /* EventViewController */,
+				707713DE1945ABD1000AB3BA /* VideoViewController */,
 				707713AD1945730D000AB3BA /* LeftMenuController */,
 				707710D7194568DD000AB3BA /* Abstract */,
 				707710DC194568DD000AB3BA /* AlbumsViewController */,
@@ -1035,6 +1071,8 @@
 				70771142194568DD000AB3BA /* Album.m */,
 				70771143194568DD000AB3BA /* Song.h */,
 				70771144194568DD000AB3BA /* Song.m */,
+				707713E51945BC53000AB3BA /* Video.h */,
+				707713E61945BC53000AB3BA /* Video.m */,
 			);
 			path = TempObjects;
 			sourceTree = "<group>";
@@ -1517,6 +1555,38 @@
 			path = CJSON;
 			sourceTree = "<group>";
 		};
+		707713DE1945ABD1000AB3BA /* VideoViewController */ = {
+			isa = PBXGroup;
+			children = (
+				707713DF1945AC1E000AB3BA /* VideoViewController.h */,
+				707713E01945AC1E000AB3BA /* VideoViewController.m */,
+				707713E21945AC35000AB3BA /* VideoCell.h */,
+				707713E31945AC35000AB3BA /* VideoCell.m */,
+			);
+			path = VideoViewController;
+			sourceTree = "<group>";
+		};
+		70DA58FE1946ABDF0050C0A5 /* EventViewController */ = {
+			isa = PBXGroup;
+			children = (
+				70DA58FF1946AC420050C0A5 /* EventViewController.h */,
+				70DA59001946AC420050C0A5 /* EventViewController.m */,
+				70DA59051946B8750050C0A5 /* Non-stop.jpg */,
+				70DA59021946AD750050C0A5 /* EventCell.h */,
+				70DA59031946AD750050C0A5 /* EventCell.m */,
+			);
+			path = EventViewController;
+			sourceTree = "<group>";
+		};
+		70DA5907194726DC0050C0A5 /* LoginController */ = {
+			isa = PBXGroup;
+			children = (
+				70DA5908194726E80050C0A5 /* LoginViewController.h */,
+				70DA5909194726E80050C0A5 /* LoginViewController.m */,
+			);
+			path = LoginController;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -1547,6 +1617,11 @@
 			attributes = {
 				LastUpgradeCheck = 0510;
 				ORGANIZATIONNAME = "Kaizen Mongolia";
+				TargetAttributes = {
+					7077109E194566CB000AB3BA = {
+						DevelopmentTeam = 54CUXJN9E7;
+					};
+				};
 			};
 			buildConfigurationList = 7077109A194566CB000AB3BA /* Build configuration list for PBXProject "MusicApp" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -1732,6 +1807,7 @@
 				7077120D194568DD000AB3BA /* play_bg_ariin@2x.png in Resources */,
 				7077139C1945711E000AB3BA /* seletion_light.png in Resources */,
 				7077134D1945711E000AB3BA /* album_bg.jpg in Resources */,
+				70DA59061946B8750050C0A5 /* Non-stop.jpg in Resources */,
 				70771283194568DD000AB3BA /* eng_button_useg_77@2x.png in Resources */,
 				707713481945711E000AB3BA /* 6.jpg in Resources */,
 				7077121F194568DD000AB3BA /* refresh_1_button@2x.png in Resources */,
@@ -1898,11 +1974,14 @@
 				7077128D194568DD000AB3BA /* MnKeyboard_iphone.m in Sources */,
 				7077128E194568DD000AB3BA /* NumKeyboard_iphone.m in Sources */,
 				707713B019457329000AB3BA /* LeftMenuController.m in Sources */,
+				70A92D57194A93A50079EC0E /* RequestHelper.m in Sources */,
 				707711E3194568DD000AB3BA /* MyPlayerLayerView.m in Sources */,
 				707713D91945A95A000AB3BA /* CJSONScanner.m in Sources */,
 				707713D61945A95A000AB3BA /* CDataScanner_Extensions.m in Sources */,
+				70DA59041946AD750050C0A5 /* EventCell.m in Sources */,
 				70771299194568DD000AB3BA /* NSString+Utils.m in Sources */,
 				707711E0194568DD000AB3BA /* AlbumsViewController.m in Sources */,
+				707713E41945AC35000AB3BA /* VideoCell.m in Sources */,
 				70771290194568DD000AB3BA /* MyAlertView.m in Sources */,
 				707711E6194568DD000AB3BA /* Parser.m in Sources */,
 				707713DB1945A95A000AB3BA /* CJSONSerializedData.m in Sources */,
@@ -1913,6 +1992,7 @@
 				707713DC1945A95A000AB3BA /* CJSONSerializer.m in Sources */,
 				70771293194568DD000AB3BA /* MyLabel.m in Sources */,
 				70771297194568DD000AB3BA /* MotionManagerSingleton.m in Sources */,
+				707713E71945BC53000AB3BA /* Video.m in Sources */,
 				70771296194568DD000AB3BA /* StandartDatePickerViewController.m in Sources */,
 				70771291194568DD000AB3BA /* MyButton.m in Sources */,
 				707710B3194566CB000AB3BA /* AppDelegate.m in Sources */,
@@ -1923,6 +2003,7 @@
 				7077128A194568DD000AB3BA /* SymbolKeyboard_ipad.m in Sources */,
 				707711DF194568DD000AB3BA /* AlbumCollectionCell.m in Sources */,
 				707711E7194568DD000AB3BA /* TimeoutAFHTTPRequestSerializer.m in Sources */,
+				70DA59011946AC420050C0A5 /* EventViewController.m in Sources */,
 				707711E4194568DD000AB3BA /* CheckConnect.m in Sources */,
 				707713DD1945A95A000AB3BA /* NSDictionary_JSONExtensions.m in Sources */,
 				7077128F194568DD000AB3BA /* SymbolKeyboard_iphone.m in Sources */,
@@ -1942,7 +2023,9 @@
 				707713BA1945A5E6000AB3BA /* FGalleryViewController.m in Sources */,
 				70771294194568DD000AB3BA /* MyTextField.m in Sources */,
 				707711E8194568DD000AB3BA /* PlayerCell.m in Sources */,
+				70DA590A194726E80050C0A5 /* LoginViewController.m in Sources */,
 				707711E1194568DD000AB3BA /* MediaPlayerManager.m in Sources */,
+				707713E11945AC1E000AB3BA /* VideoViewController.m in Sources */,
 				7077128C194568DD000AB3BA /* Keyboard.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -1977,7 +2060,8 @@
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Ganzorig J (54CUXJN9E7)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Ganzorig J (54CUXJN9E7)";
 				COPY_PHASE_STRIP = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
@@ -1995,8 +2079,9 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				ONLY_ACTIVE_ARCH = NO;
+				PROVISIONING_PROFILE = "1B864E1A-B876-4FB6-A5C4-1035A154F7D9";
 				SDKROOT = iphoneos;
-				VALID_ARCHS = "armv6 armv7";
+				VALID_ARCHS = "armv7s armv7";
 			};
 			name = Debug;
 		};
@@ -2016,7 +2101,8 @@
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Ganzorig J (54CUXJN9E7)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Ganzorig J (54CUXJN9E7)";
 				COPY_PHASE_STRIP = YES;
 				ENABLE_NS_ASSERTIONS = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
@@ -2028,9 +2114,10 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				ONLY_ACTIVE_ARCH = NO;
+				PROVISIONING_PROFILE = "1B864E1A-B876-4FB6-A5C4-1035A154F7D9";
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
-				VALID_ARCHS = "armv6 armv7";
+				VALID_ARCHS = "armv7s armv7";
 			};
 			name = Release;
 		};
@@ -2040,6 +2127,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Ganzorig Jigjidsuren (Y2A67P739S)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+					/Users/Bayraa/Desktop,
+					"/Users/Bayraa/Desktop/ios-howtos-master",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "MusicApp/MusicApp-Prefix.pch";
 				HEADER_SEARCH_PATHS = (
@@ -2057,14 +2151,16 @@
 					$SOURCE_ROOT/include,
 				);
 				INFOPLIST_FILE = "MusicApp/MusicApp-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				LIBRARY_SEARCH_PATHS = (
 					$SOURCE_ROOT/lib,
 					"$(inherited)",
 					"$(PROJECT_DIR)/lib",
+					/Users/Bayraa/Dropbox/Bold,
 				);
 				ONLY_ACTIVE_ARCH = NO;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "53BD2806-202A-4971-B27E-6CB05F0A7A93";
 				VALID_ARCHS = "armv7 armv7s";
 				WRAPPER_EXTENSION = app;
 			};
@@ -2076,6 +2172,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Ganzorig Jigjidsuren (Y2A67P739S)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+					/Users/Bayraa/Desktop,
+					"/Users/Bayraa/Desktop/ios-howtos-master",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "MusicApp/MusicApp-Prefix.pch";
 				HEADER_SEARCH_PATHS = (
@@ -2093,14 +2196,16 @@
 					$SOURCE_ROOT/include,
 				);
 				INFOPLIST_FILE = "MusicApp/MusicApp-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				LIBRARY_SEARCH_PATHS = (
 					$SOURCE_ROOT/lib,
 					"$(inherited)",
 					"$(PROJECT_DIR)/lib",
+					/Users/Bayraa/Dropbox/Bold,
 				);
 				ONLY_ACTIVE_ARCH = NO;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "53BD2806-202A-4971-B27E-6CB05F0A7A93";
 				VALID_ARCHS = "armv7 armv7s";
 				WRAPPER_EXTENSION = app;
 			};

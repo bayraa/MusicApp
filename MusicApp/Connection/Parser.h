@@ -18,4 +18,7 @@
 #pragma mark Albums
 - (NSArray *)parseAlbums:(NSArray *)dicArray;
 
+- (NSArray *)parseVideo:(NSArray *)dicArray;
+
+
 @end

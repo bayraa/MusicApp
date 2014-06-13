@@ -7,3 +7,4 @@
 //
 
 #define URL_GET_ALBUMS  @"http://%@/albums.php"
+#define URL_GET_Videos @"http://%@/music_api/index.php/channel/getLast/20"

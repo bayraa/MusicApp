@@ -105,6 +105,27 @@
     }];
 }
 
+- (void)getVideosSuccess:(void(^)(NSArray *))success FAILURE_SESSION_EXPIRED_BLOCK{
+    NSString *urlString = [NSString stringWithFormat:URL_GET_Videos, HOST];
+    DDLogWarn(@"URLSTRING:%@", urlString);
+    
+    AFHTTPRequestOperationManager *manager = [self getRequestOperationManager];
+    
+    [manager GET:urlString parameters:nil success:^(AFHTTPRequestOperation *operation, id responseObject) {
+        CHECK_CONNECTION;
+                
+        NSArray *resultArray = (NSArray *)responseObject;
+        if (resultArray) {
+            if (success)
+                success([PARSER parseVideo:resultArray]);
+        }
+        
+        
+    } failure:^(AFHTTPRequestOperation *operation, NSError *error) {
+        FAILURE_CONNECTION;
+    }];
+}
+
 - (void)getImageFromURLString:(NSString *)urlString
                       success:(void(^)(UIImage *))success FAILURE_SESSION_EXPIRED_BLOCK {
     

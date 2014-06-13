@@ -9,6 +9,7 @@
 #import "Parser.h"
 #import "Album.h"
 #import "Song.h"
+#import "Video.h"
 
 @implementation Parser
 
@@ -88,6 +89,34 @@
             song.album = album;
             song.songIndex = i++;
             [resultArray addObject:song];
+        }
+    }
+    
+    return resultArray;
+}
+
+#pragma mark - 
+#pragma mark video
+
+- (NSArray *)parseVideo:(NSArray *)dicArray {
+    NSMutableArray *resultArray= [NSMutableArray array];
+    if ([dicArray isKindOfClass:[NSArray class]]) {
+        for (NSDictionary *dict in dicArray) {
+            Video *video = [[Video alloc] init];
+            video.published = [self getStringValue:dict Key:@"published"];
+            video.updated = [self getStringValue:dict Key:@"updated"];
+            video.title = [self getStringValue:dict Key:@"title"];
+            video.content = [self getStringValue:dict Key:@"content"];
+            video.content_2 = [self getStringValue:dict Key:@"content_2"];
+            video.link = [self getStringValue:dict Key:@"link"];
+            video.link_xml = [self getStringValue:dict Key:@"link_xml"];
+            video.youtube_id = [self getStringValue:dict Key:@"id"];
+            video.url_embed = [self getStringValue:dict Key:@"url_embed"];
+            video.views = [self getStringValue:dict Key:@"views"];
+            video.likes = [self getStringValue:dict Key:@"likes"];
+            NSArray *coverArray = [dict valueForKey:@"cover"];
+            video.cover = coverArray;
+            [resultArray addObject:video];
         }
     }
     

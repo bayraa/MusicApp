@@ -28,6 +28,7 @@
 #pragma mark -
 #pragma mark Album
 - (void)getAlbumsSuccess:(void(^)(NSArray *))success FAILURE_SESSION_EXPIRED_BLOCK;
+- (void)getVideosSuccess:(void(^)(NSArray *))success FAILURE_SESSION_EXPIRED_BLOCK;
 
 - (void)getImageFromURLString:(NSString *)urlString
                       success:(void(^)(UIImage *))success FAILURE_SESSION_EXPIRED_BLOCK;

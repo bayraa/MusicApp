@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "028E326E75B0424F8541E0FF"
+               BlueprintIdentifier = "27EA85DB3EF348BEBE159AE5"
                BuildableName = "libPods-UICircularSlider.a"
                BlueprintName = "Pods-UICircularSlider"
                ReferencedContainer = "container:Pods.xcodeproj">

@@ -11,6 +11,9 @@
 #import "MyNavigationController.h"
 #import <SWRevealViewController/SWRevealViewController.h>
 #import "CJSONDeserializer.h"
+#import "VideoViewController.h"
+#import "EventViewController.h"
+#import "LoginViewController.h"
 @interface LeftMenuController ()
 
 @end
@@ -111,7 +114,7 @@
         videoBtn = [[UIButton alloc] initWithFrame: CGRectMake(20, 202, 44, 44)];
         videoBtn.backgroundColor = CLEAR_COLOR;
         [videoBtn setImage:[UIImage imageNamed:@"menu_clip.png"] forState:UIControlStateNormal];
-        [videoBtn addTarget:self action:@selector(AlbumButtonClicked) forControlEvents:UIControlEventTouchUpInside];
+        [videoBtn addTarget:self action:@selector(videoBtnClicked) forControlEvents:UIControlEventTouchUpInside];
     }
     return videoBtn;
 }
@@ -131,7 +134,7 @@
         eventBtn = [[UIButton alloc] initWithFrame: CGRectMake(20, 390, 44, 44)];
         eventBtn.backgroundColor = CLEAR_COLOR;
         [eventBtn setImage:[UIImage imageNamed:@"menu_event.png"] forState:UIControlStateNormal];
-        [eventBtn addTarget:self action:@selector(AlbumButtonClicked) forControlEvents:UIControlEventTouchUpInside];
+        [eventBtn addTarget:self action:@selector(EventBtnClicked) forControlEvents:UIControlEventTouchUpInside];
     }
     return eventBtn;
 }
@@ -141,7 +144,7 @@
         memberBtn = [[UIButton alloc] initWithFrame: CGRectMake(20, 485, 44, 44)];
         memberBtn.backgroundColor = CLEAR_COLOR;
         [memberBtn setImage:[UIImage imageNamed:@"menu_members.png"] forState:UIControlStateNormal];
-        [memberBtn addTarget:self action:@selector(AlbumButtonClicked) forControlEvents:UIControlEventTouchUpInside];
+        [memberBtn addTarget:self action:@selector(memberBtnClicked) forControlEvents:UIControlEventTouchUpInside];
     }
     return memberBtn;
 }
@@ -242,6 +245,63 @@
     {
         gallery = [[FGalleryViewController alloc] initWithPhotoSource:self];
         MyNavigationController *navigationController = [[MyNavigationController alloc] initWithRootViewController:gallery];
+        navigationController.navigationBarHidden = YES;
+        [revealController setFrontViewController:navigationController animated:NO];
+    }
+    
+    [self.revealViewController revealToggle:nil];
+}
+
+-(void)EventBtnClicked {
+    SWRevealViewController *revealController = [self revealViewController];
+    UIViewController *frontViewController = revealController.frontViewController;
+    MyNavigationController *frontNavigationController = nil;
+    
+    if ( [frontViewController isKindOfClass:[MyNavigationController class]] )
+        frontNavigationController = (id)frontViewController;
+    
+    if ( ![frontNavigationController.topViewController isKindOfClass:[EventViewController class]] )
+    {
+        EventViewController *controller = [[EventViewController alloc] initWithNibName:nil bundle:nil];
+        MyNavigationController *navigationController = [[MyNavigationController alloc] initWithRootViewController:controller];
+        navigationController.navigationBarHidden = YES;
+        [revealController setFrontViewController:navigationController animated:NO];
+    }
+    
+    [self.revealViewController revealToggle:nil];
+}
+
+-(void) videoBtnClicked {
+    SWRevealViewController *revealController = [self revealViewController];
+    UIViewController *frontViewController = revealController.frontViewController;
+    MyNavigationController *frontNavigationController = nil;
+    
+    if ( [frontViewController isKindOfClass:[MyNavigationController class]] )
+        frontNavigationController = (id)frontViewController;
+    
+    if ( ![frontNavigationController.topViewController isKindOfClass:[VideoViewController class]] )
+    {
+        VideoViewController *controller = [[VideoViewController alloc] initWithNibName:nil bundle:nil];
+        MyNavigationController *navigationController = [[MyNavigationController alloc] initWithRootViewController:controller];
+        navigationController.navigationBarHidden = YES;
+        [revealController setFrontViewController:navigationController animated:NO];
+    }
+    
+    [self.revealViewController revealToggle:nil];
+}
+
+-(void) memberBtnClicked {
+    SWRevealViewController *revealController = [self revealViewController];
+    UIViewController *frontViewController = revealController.frontViewController;
+    MyNavigationController *frontNavigationController = nil;
+    
+    if ( [frontViewController isKindOfClass:[MyNavigationController class]] )
+        frontNavigationController = (id)frontViewController;
+    
+    if ( ![frontNavigationController.topViewController isKindOfClass:[LoginViewController class]] )
+    {
+        LoginViewController *controller = [[LoginViewController alloc] initWithNibName:nil bundle:nil];
+        MyNavigationController *navigationController = [[MyNavigationController alloc] initWithRootViewController:controller];
         navigationController.navigationBarHidden = YES;
         [revealController setFrontViewController:navigationController animated:NO];
     }
